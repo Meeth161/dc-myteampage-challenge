@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Poppins&display=swap');
+
+.main {
+    height: 100%;
+}
+
+.title {
+    font-family: 'PT Serif';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.sub-heading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        font-family: 'Poppins';
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cards div:nth-child(even) {
+        transform: translateY(25%);
+    }
+
+    .name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 15px;
+    }
+
+    .designation {
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+
+    .image {
+        display: inline-block;
+        max-width: 80%;
+    }
+    
+    .image img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .description {
+        max-width: 80%;
+        font-family: 'Poppins';
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .cards div:nth-child(2),div:nth-child(5) {
+        transform: translateY(25%);
+    }
+
+    .name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 15px;
+    }
+
+    .designation {
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+
+    .image {
+        display: inline-block;
+        max-width: 60%;
+    }
+    
+    .image img {
+        max-width: 100%;
+    }
+}
+
+
+.footer {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #a9a9a9;
+}
+
+.rotate {
+    display: inline-block;
+    vertical-align: top;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    transform: translateX(20%);
+}
+
+p {
+    margin: 0;
+}
